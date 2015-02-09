@@ -1,10 +1,13 @@
-body {
+.container {
 	background: #478FB2; 
-	text-align: center;
 }
 
 h1, p { 
 	font-family: Verdana; 
+}
+
+h1 {
+	text-align: center;
 }
 
 .credit {
@@ -20,11 +23,12 @@ img {
 }
 
 div {
-	background-color: blue;	
-	text-align: center;
+    background: #478FB2; 
 	color: white;
-	.quote {
-	font-family: Verdana;
-	}
+	text-align: center;
 }
 
+.quote {
+	background-color: #66FFCC;
+	color: black;
+}
